@@ -1,43 +1,48 @@
-# Django Bank App
+# 🏦 Django Bank App
 
-Overview
+A secure, full-featured banking web application built with Django. Users can send and receive money, manage deposits and withdrawals, and analyze their financial activity through an intuitive dashboard.
 
-This Django-based banking application allows users to send money, deposit and withdraw funds, and track their spending and transaction history in a secure and user-friendly manner.
+---
 
-Features
+## ✨ Features
 
-Core Banking Functions
+### 💰 Core Banking Functions
+- **Send Money**: Instantly transfer funds to other users.
+- **Deposit & Withdraw**: Securely add or remove money from your account.
+- **Transaction History**: Complete log of all transactions for transparency.
+- **Spending Overview**: Categorized insights into user spending habits.
 
-Send Money: Transfer funds to another user's account securely.
+### 🔐 Security & Authentication
+- **User Authentication**: Secure signup/login using Django’s built-in auth system.
+- **Transaction Verification**: All transactions are protected and restricted to authenticated users.
+- **Balance Enforcement**: Ensures sufficient funds before allowing withdrawals or transfers.
 
-Deposit & Withdraw: Users can add money to their account or withdraw funds.
+### 📊 Dashboard & Reporting
+- **Account Overview**: Displays real-time balance and recent transactions.
+- **Spending Analysis**: Visualize and categorize expenses for personal finance tracking.
+- **Transaction Filtering**: Easily search by date, type, or recipient for precise insights.
 
-Transaction History: View a complete log of past transactions.
+---
 
-Spending Overview: Track spending habits with categorized transactions.
+## 🛠️ Tech Stack
 
-Security & Authentication
+| Technology       | Role                                |
+|------------------|-------------------------------------|
+| **Django**        | Python web framework                |
+| **Django ORM**    | Database abstraction and querying   |
+| **SQLite / PostgreSQL** | Flexible backend database       |
+| **Django Auth**   | Built-in authentication system      |
 
-User Authentication: Secure login and registration with Django's built-in authentication.
+---
 
-Transaction Verification: Ensures only authenticated users can perform financial transactions.
+## 🧑‍💻 Author
 
-Balance Checks: Prevents overdrawing by verifying sufficient funds before withdrawals or transfers.
+**DraymeM** – Backend Developer, Full-Stack Engineer
 
-Dashboard & Reporting
+---
 
-Account Overview: Displays the current balance and recent transactions.
+## 🙌 Acknowledgments
 
-Spending Analysis: Categorized expense tracking for budgeting.
-
-Transaction Filtering: Filter by date range, transaction type, or recipient.
-
-Technologies Used
-
-Django (Python Framework)
-
-Django ORM for database interactions
-
-SQLite / PostgreSQL (configurable database support)
-
-Django Authentication (for secure login & access control)
+- Django Documentation & Community  
+- Python Software Foundation  
+- Security best practices from the OWASP community
